@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "booting"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

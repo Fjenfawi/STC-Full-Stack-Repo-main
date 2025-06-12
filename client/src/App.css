@@ -1,0 +1,90 @@
+/* App.css */
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  width: 100%;
+  height: 10vh;
+  background-color:#7030A0  ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+#stc{
+  padding-right:90%;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Calibri', sans-serif;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+#submit-button{
+
+justify-content: center;
+align-items: center;
+margin-left:46%;
+
+}
+.form-container {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+select {
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 5px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+select:focus {
+  outline: none;
+  border-color: #7030A0;
+}
+.spinner-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 5px solid #ccc;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  margin: 10px auto;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

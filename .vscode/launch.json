@@ -1,0 +1,56 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debugging",
+            "request": "launch",
+            "mainClass": "com.example.booting.Debugging",
+            "projectName": "booting"
+        },
+        {
+            "type": "java",
+            "name": "debugging",
+            "request": "launch",
+            "mainClass": "com.example.booting.debugging",
+            "projectName": "booting"
+        },
+        {
+            "type": "java",
+            "name": "DebugIt",
+            "request": "launch",
+            "mainClass": "com.example.booting.DebugIt",
+            "projectName": "booting"
+        },
+        {
+            "type": "java",
+            "name": "DebugIt",
+            "request": "launch",
+            "mainClass": "DebugIt",
+            "projectName": "booting"
+        },
+        {
+            "type": "java",
+            "name": "Debugging",
+            "request": "launch",
+            "mainClass": "Debugging",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "debugging",
+            "request": "launch",
+            "mainClass": "debugging",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BootingApplication<booting>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.booting.BootingApplication",
+            "projectName": "booting",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
