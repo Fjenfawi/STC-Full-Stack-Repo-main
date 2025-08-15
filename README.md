@@ -1,1 +1,1 @@
-# STC-Full-Stack-Repo
+# Full-Stack-Repo
